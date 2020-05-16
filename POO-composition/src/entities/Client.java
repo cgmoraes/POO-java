@@ -44,6 +44,7 @@ public class Client {
 		this.birthDate = birthDate;
 	}
 	
+	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Client: " + name + " (" + sdf.format(birthDate) + ") - " + email + "\n");
