@@ -44,6 +44,7 @@ public class OrderItem {
 		return quantity*price;
 	}
 	
+	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(product.getName() + String.format(", $%.2f", price) + ", Quantity: " + quantity + String.format(", Subtotal: $%.2f", subTotal()) + "\n");
