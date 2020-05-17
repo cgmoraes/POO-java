@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.ImportedProduct;
-import entities.Product;
-import entities.UsedProduct;
+import model.entities.ImportedProduct;
+import model.entities.Product;
+import model.entities.UsedProduct;
 
 public class Program {
 

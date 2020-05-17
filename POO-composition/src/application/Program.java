@@ -6,11 +6,11 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Client;
-import entities.Order;
-import entities.OrderItem;
-import entities.Product;
-import entities.enums.OrderStatus;
+import model.entities.Client;
+import model.entities.Order;
+import model.entities.OrderItem;
+import model.entities.Product;
+import model.enums.OrderStatus;
 
 public class Program {
 

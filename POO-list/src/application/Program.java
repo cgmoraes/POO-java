@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Employee;
+import model.entities.Employee;
 
 
 public class Program {

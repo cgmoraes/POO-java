@@ -1,13 +1,10 @@
-package entities;
+package model.entities;
 
 public class Product {
-	
+
 	private String name;
 	private Double price;
-	
-	public Product() {
-	}
-	
+
 	public Product(String name, Double price) {
 		this.name = name;
 		this.price = price;
@@ -27,5 +24,11 @@ public class Product {
 
 	public void setPrice(Double price) {
 		this.price = price;
+	}
+
+	public String priceTag() {
+		return name 
+				+ " $ " 
+				+ String.format("%.2f", price);
 	}
 }

@@ -1,4 +1,4 @@
-package entities;
+package model.entities;
 
 public class Employee {
 	
@@ -36,6 +36,7 @@ public class Employee {
 		salary *= ((percentage/100)+1);
 	}
 	
+	@Override
 	public String toString() {
 		return id
 			+ ", "

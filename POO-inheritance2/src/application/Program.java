@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Company;
-import entities.Individual;
-import entities.TaxPayer;
+import model.entities.Company;
+import model.entities.Individual;
+import model.entities.TaxPayer;
 
 public class Program {
 
